@@ -6,6 +6,7 @@ Clear and responsive code for these who want carousel items
 
 Go to carousel-items/src/app/components/helpers/carousel-slider
 Get the .ts files
+
 note! the buttons and icons are extarnal libraries:
 
 Icons: 
@@ -16,11 +17,14 @@ Buttons:
 Material UI: https://material.angular.io/guide/getting-started
 API buttons: https://material.angular.io/components/button/api
 
+The carousel component connect to service, which keep this component responsive! 
+
+
 # Full Project
 ## For those who want to download the project
 
 Download the zip file
-Run on cmd "npm i"
+& Run on cmd "npm i"
 
 # Client
 
