@@ -1,3 +1,27 @@
+# Description
+Clear and responsive code for these who want carousel items
+
+# Self & Quick using
+## For those who want to use the carousel component
+
+Go to carousel-items/src/app/components/helpers/carousel-slider
+Get the .ts files
+note! the buttons and icons are extarnal libraries:
+
+Icons: 
+Npm: https://www.npmjs.com/package/material-design-icons
+Icon tags: https://material.io/resources/icons/?icon=navigate_before&style=baseline
+
+Buttons:
+Material UI: https://material.angular.io/guide/getting-started
+API buttons: https://material.angular.io/components/button/api
+
+# Full Project
+## For those who want to download the project
+
+Download the zip file
+Run on cmd "npm i"
+
 # Client
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
