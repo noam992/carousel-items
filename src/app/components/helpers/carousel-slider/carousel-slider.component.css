@@ -1,0 +1,45 @@
+/* Carousel container */
+.carousel-container{
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    width: 80%;
+    border-bottom: 1px solid rgb(122, 120, 1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Carousel slide */
+.carousel-slide {
+    display: flex;
+    width: 100%;
+}
+
+/* Carousel slide images */
+.carousel-slide img {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+/* Right button container */
+.right-btn-container {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgba(206, 200, 120, 0.486);
+}
+
+
+/* Left button container */
+.left-btn-container {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgba(206, 200, 120, 0.486);
+}

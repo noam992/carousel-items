@@ -1,0 +1,30 @@
+<div class="carousel-container" [style.width.px]='imageContainerWidth'>
+
+    <!-- Items container -->
+    <div class="Items-container">
+        <div class="carousel-slide" #carouselSlide (transitionend)="transitionEnd($event)">
+            <div #carouselImg *ngFor="let i of itemsArr">
+                <img src='{{imgURL}}{{i}}.png' (load)="onLoadImages()" alt="img-carousel" [style.width.px]='imageWidth' [style.height.px]='imageHeight'>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right button container -->
+    <div class="right-btn-container">
+        <button mat-icon-button (click)="nextBtn()">
+            <span class="material-icons">
+                navigate_before
+            </span>
+        </button>
+    </div>
+
+    <!-- Left button container -->
+    <div class="left-btn-container">
+        <button mat-icon-button (click)="prevBtn()">
+            <span class="material-icons">
+                navigate_next
+            </span>
+        </button>
+    </div>
+
+</div>
